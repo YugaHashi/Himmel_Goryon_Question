@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>アンケート</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form id="survey-form">
+    <label>① 本日のお料理の満足度は？</label>
+    <select name="q1" required>
+      <option value="">選択してください</option>
+      <option>とても満足</option>
+      <option>満足</option>
+      <option>普通</option>
+      <option>やや不満</option>
+      <option>不満</option>
+    </select>
+
+    <label>② 接客やお店の雰囲気はどうでしたか？</label>
+    <select name="q2" required>
+      <option value="">選択してください</option>
+      <option>とても良い</option>
+      <option>良い</option>
+      <option>普通</option>
+      <option>やや悪い</option>
+      <option>悪い</option>
+    </select>
+
+    <label>③ ご意見・ご要望（任意）</label>
+    <textarea name="q3" placeholder="ご自由にどうぞ"></textarea>
+
+    <label>④ パンフレットでお店の理解が深まりましたか？</label>
+    <select name="q4" required>
+      <option value="">選択してください</option>
+      <option>はい</option>
+      <option>少し</option>
+      <option>いいえ</option>
+    </select>
+
+    <label>⑤ パンフレットで追加注文はありましたか？</label>
+    <select name="q5" id="q5" required>
+      <option value="">選択してください</option>
+      <option value="はい">はい</option>
+      <option value="いいえ">いいえ</option>
+    </select>
+
+    <div id="q5-amount-wrapper" style="display: none;">
+      <label>金額帯</label>
+      <select name="q5_amount">
+        <option value="">選択してください</option>
+        <option>500円～1000円</option>
+        <option>1000円～2000円</option>
+        <option>2000円～4000円</option>
+        <option>それ以上</option>
+      </select>
+    </div>
+
+    <div id="form-lower-part">
+      <label>⑥ 印象に残った内容や気になる点（任意）</label>
+      <textarea name="q6" placeholder="自由にご記入ください"></textarea>
+      <button type="submit">送信する</button>
+    </div>
+  </form>
+
+  <div id="thanks-image-container">
+    <img src="gansan.png" alt="ありがとうございました" class="thankyou-image" />
+    <div class="thankyou-message">
+      ご協力ありがとうございました。<br>またのご来店お待ちしております！！
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
