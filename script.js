@@ -1,5 +1,5 @@
-const SUPABASE_URL = 'https://ciljxhsbwpspcazwrsdj.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNpbGp4aHNid3BzcGNhendyc2RqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEyNjYwMjcsImV4cCI6MjA2Njg0MjAyN30.oDcz9pF2E_PXyNxEspbmDVmcqazPaIEpd2CcUvvbpvc';
+const SUPABASE_URL = 'https://labmhtrafdslfwqmzgky.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhYm1odHJhZmRzbGZ3cW16Z2t5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk2OTAzNzksImV4cCI6MjA2NTI2NjM3OX0.CviQ3lzngfvqDFwEtDw5cTRSEICWliunXngYCokhbNs';
 
 const form = document.getElementById('survey-form');
 const q5 = document.getElementById('q5');
